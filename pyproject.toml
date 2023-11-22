@@ -96,7 +96,7 @@ classifiers = [
     'Typing :: Typed',
 ]
 dependencies = [
-    "cengal",
+    "cengal_light",
 ]
 
 [project.urls]

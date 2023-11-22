@@ -92,7 +92,7 @@ from cengal_memory_barriers import full_memory_barrier, mm_pause
 Alternatives description:
 * `clear_cache(beg: int, end: int) -> None` - "Linux", "Darwin" - An alternative to `mm_clflush()` in GCC and Clang compilers
 * `iso_volatile_store16(p: int, val: int) -> None` - "Windows" - "ARM" - An alternative to `mm_clflush()` for ARM in Visual Studio compiler
-* `py_emscripten_atomic_fence() -> None` - "Emscripten" - # Probably can be used as an alternative to `mm_clflush()` for Emscripten
+* `py_emscripten_atomic_fence() -> None` - "Emscripten" - Probably can be used as an alternative to `mm_clflush()` for Emscripten
 
 # Based on Cengal
 
