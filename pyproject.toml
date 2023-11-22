@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "cengal_memory_barriers"
 dynamic = ["version"]
-description = "Extended, cached CPU info with consistent output format"
+description = "Fast crossplatform memory barriers for Python"
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.8"
